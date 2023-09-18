@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="submit.html" method="get" target="_blank">
+           <fieldset>
+            <legend>credencial</legend> 
+            <lable for="username">your name:</lable> <br>
+            <input type="text" id="username" name="user-name" value="enter your name">
+        <p> 
+            <lable for="mail">email:</lable> <br>
+            <input type="email" id="mail" name="user-email"> </p>
+            <lable for="pwd">password:</lable> <br>
+            <input type="password" id="pwd" name="user-password">
+          </fieldset>
+        <p>
+          <fieldset>
+            <legend>choosing</legend> 
+            <h4>choose your topic</h4>
+            <input type="radio" id="css" name="topic" value="CSS">
+            <label for="css">CSS</label> <br>
+            <input type="radio" id="html" name="topic" value="HTML">
+            <label for="html">HTML</label> <br>
+            <input type="radio" id="js" name="topic" value="js">
+            <label for="js">JS</label>
+        </p>
+        <p>
+            <h4>choose your tutor</h4>
+            <!-- by specifing checked it will automatecally keeps on checking to that checkbox -->
+            <input type="checkbox" id="ty" name="tutor" value="tashi yangchen" checked> 
+            <label for="ty">tashi yangchen</label><br>
+            <input type="checkbox" id="td" name="tutor" value="tshewang dendup">
+            <label for="ty">tshewang dendup</label><br>
+            <input type="checkbox" id="tw" name="tutor" value="tashi wangchuk">
+            <label for="ty">tashi wangchuk</label>
+        </p>
+        
+            <lable for="assignment">uplode assignment</lable>
+            <input type="file" id="assignment" name="assignment1">
+        <p>
+            <!-- by specifing selected it will by default it display it  -->
+            <lable for="dzongkhag">Dzongkhag</lable>
+            <select name="dzongkhag" id="dzongkhag">
+                <option value="SJ">S/jongkhar</option>
+                <option value="TG">T/gang</option>
+                <option value="PG" selected>p/ling</option>
+                <option value="TP">T/phu</option>
+            </select> 
+        </fieldset>
+        </p>
+        <!-- cols=column rows=rows no. -->
+        <lable for="comment">comment</lable>
+        <textarea id="comment" name="fB-comment" cols="50" rows="20">type your comment here</textarea>
+        <p> 
+            <input type="submit">
+        </p>
+
+        </form>
+    </body>
+</html>
