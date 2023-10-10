@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="data.py" method="post">
+            <fieldset>
+                <legend> Authentication Details</legend>
+                <lable for="uname"> User Name</lable><br>
+                <input type="text" id="uname" name="username">
+                <br>
+                <lable for="pwd">Password</lable> <br>
+                <input type="password" id="pwd" name="password">
+            </fieldset>
+            <h3>Choose Gender</h3>
+            <input type="radio" id="F" name="gender" value="female">
+            <lable for="F">female</lable>
+            <input type="radio" id="M" name="gender" value="male">
+            <lable for="M">male</lable>
+            <input type="radio" id="O" name="gender" value="other">
+            <lable for="O">other</lable> 
+            <div>
+            <h3>Choose programming language</h3>
+            <input type="checkbox" id="py" name="favlanguage" value="python"checked>
+            <lable for="py">python</lable>
+            <input type="checkbox" id="pr" name="favlanguage" value="perl">
+            <lable for="pr">perl</lable>
+            <input type="checkbox" id="c" name="favlanguage" value="c++">
+            <lable for="c">c++</lable>
+            </div>
+            <lable for="dropdown">choose project collaboration tool</lable>
+            <select id="dropdown">
+                <option value="github" selected> github</option>
+                <option value="gitlab"> git lab</option>
+                <option value="bitbucket"> bitbucket</option>
+            </select>
+            <br>
+            <br>
+            <lable for="file"> uplode Resume</lable>
+            <input type="file" id="file" name="file" value="choose file">
+            <br>
+            <br>
+            <input type="submit" name="submit" value="submit Details">
+        </form>
+    </body>
+</html>

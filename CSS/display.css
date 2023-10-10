@@ -1,0 +1,27 @@
+p {
+    display:inline;
+    background-color:rgb(240, 128, 48);
+    height: 20px;
+}
+span{
+    display:block;
+    background-color: chartreuse;
+}
+h1 {
+    display:inline-block;
+    background-color: cadetblue;
+    height: 20px;
+}
+.d1 {
+    display:block;
+    background-color: aqua;
+    height:300px;
+    text-align:center;
+}
+.d2, .d3 {
+    display:inline-block;
+    background-color: rgb(83, 128, 128);
+    height:300px;
+    width:49%;
+    text-align:center;
+}
